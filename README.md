@@ -1,4 +1,4 @@
-# civiai (an hackathon project)
+# civiai (hackathon project)
 successfully we lost it because we built the UI/UX design as per user perceptive not in developer perceptive.
 
 But still #ALIVE
