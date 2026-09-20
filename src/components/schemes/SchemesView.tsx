@@ -30,6 +30,10 @@ const CATEGORIES: CivicCategory[] = [
   'Education',
   'Employment',
   'Utilities',
+  'Documents',
+  'Transport',
+  'Public Safety',
+  'Municipal Services',
   'Social Welfare'
 ];
 

@@ -483,6 +483,155 @@ export const CIVIC_SERVICES_DATA: CivicService[] = [
     ],
     officialUrl: 'https://bbmp.gov.in',
     serviceCount: 16
+  },
+  {
+    id: 'srv-ayushman-card',
+    title: 'Ayushman Bharat PVC Golden Card Issuance',
+    category: 'Healthcare',
+    department: 'National Health Authority (NHA)',
+    shortDescription: 'Generate and print high-security PVC health card for cashless hospital cover up to ₹5 Lakh.',
+    detailedDescription: 'Empowers eligible SECC, NFSA, and senior citizen households with instant cashless medical entitlement tokens valid across 27,000+ empaneled hospitals.',
+    onlineAvailability: 'Fully Online',
+    turnaroundTime: 'Instant (Download) / 5 Days (PVC Home Delivery)',
+    officialFee: 'Free of Cost (Government Sponsored)',
+    requiredDocuments: [
+      'Aadhaar Card with biometric e-KYC',
+      'Ration Card / PM-JAY Family ID',
+      'Active Mobile number'
+    ],
+    applicationSteps: [
+      'Search name on mera.pmjay.gov.in',
+      'Complete biometric e-KYC at hospital desk or Grama One',
+      'Download electronic PDF card with secure QR code',
+      'Avail zero-billing hospital admissions'
+    ],
+    officialUrl: 'https://pmjay.gov.in',
+    serviceCount: 12
+  },
+  {
+    id: 'srv-nsp-bonafide',
+    title: 'College Bonafide & Student Scholarship Verification',
+    category: 'Education',
+    department: 'Ministry of Education & State Higher Education Council',
+    shortDescription: 'Institutional verification of college enrollment credentials for National Scholarship Portal disbursement.',
+    detailedDescription: 'Enables students to get digital institutional endorsement from College Nodal Officers for post-matric and merit scholarships.',
+    onlineAvailability: 'Fully Online',
+    turnaroundTime: '3 to 5 Working Days',
+    officialFee: 'Free of Cost',
+    requiredDocuments: [
+      'Student College ID Card',
+      'Current Academic Semester Admission Fee Receipt',
+      'Previous Year Marksheet',
+      'Aadhaar Card'
+    ],
+    applicationSteps: [
+      'Apply on scholarships.gov.in with OTR number',
+      'Submit bonafide request to College Academic Registrar',
+      'Nodal officer approves digital signature',
+      'Direct DBT credit into student bank account'
+    ],
+    officialUrl: 'https://scholarships.gov.in',
+    serviceCount: 14
+  },
+  {
+    id: 'srv-udyam-reg',
+    title: 'Udyam MSME Registration & Priority Lending Certificate',
+    category: 'Employment',
+    department: 'Ministry of Micro, Small and Medium Enterprises',
+    shortDescription: 'Paperless, zero-cost government registration for micro, small, and medium businesses and self-employed artisans.',
+    detailedDescription: 'Permanent identity number with digital e-certificate that unlocks priority sector bank credit, collateral-free MUDRA loans, and government tender exemptions.',
+    onlineAvailability: 'Fully Online',
+    turnaroundTime: 'Instant (Digital Certificate)',
+    officialFee: 'Free of Cost (Zero official fee)',
+    requiredDocuments: [
+      'Aadhaar Card of Entrepreneur',
+      'PAN Card (mandatory for business entities)',
+      'Bank Account details with IFSC',
+      'GSTIN (if applicable under turnover rules)'
+    ],
+    applicationSteps: [
+      'Visit udyamregistration.gov.in',
+      'Authenticate Aadhaar via OTP',
+      'Fill in enterprise name, unit location, and NIC business code',
+      'Receive instant Udyam Registration Certificate with dynamic QR code'
+    ],
+    officialUrl: 'https://udyamregistration.gov.in',
+    serviceCount: 16
+  },
+  {
+    id: 'srv-pmay-survey',
+    title: 'PMAY Housing Beneficiary Verification & Site Survey',
+    category: 'Housing',
+    department: 'Housing Board & Directorate of Municipal Administration',
+    shortDescription: 'Request municipal geotagged inspection of residential site for PMAY pucca house subsidy installment release.',
+    detailedDescription: 'Required for validation of foundation, lintel, and roof levels to trigger stage-wise Direct Benefit Transfer credits into beneficiary bank accounts.',
+    onlineAvailability: 'Hybrid (Apply Online / Biometrics in Center)',
+    turnaroundTime: '7 to 10 Working Days',
+    officialFee: 'Free of Cost',
+    requiredDocuments: [
+      'PMAY Beneficiary Registration ID',
+      'Site Allotment / Ownership Title Deed',
+      'Aadhaar Card of Female Household Head',
+      'Geotagged photos of foundation / plinth level'
+    ],
+    applicationSteps: [
+      'Login to PMAY-Urban / PMAY-Gramin state portal',
+      'Request milestone inspection with progress photograph',
+      'Municipal field surveyor conducts on-site GPS verification',
+      'Subsidy installment released directly to bank account'
+    ],
+    officialUrl: 'https://pmaymis.gov.in',
+    serviceCount: 9
+  },
+  {
+    id: 'srv-police-pcc',
+    title: 'Police Verification Certificate (PCC & Tenant Clearance)',
+    category: 'Public Safety',
+    department: 'State Police Department / Criminal Investigation Department',
+    shortDescription: 'Obtain statutory police character certificate for employment, passport clearance, or tenant lease agreements.',
+    detailedDescription: 'Digitally verified non-involvement in criminal proceedings issued by the District Superintendent of Police or Commissionerate.',
+    onlineAvailability: 'Fully Online',
+    turnaroundTime: '7 to 14 Working Days',
+    officialFee: '₹250 (Official government fee)',
+    requiredDocuments: [
+      'Aadhaar Card / Voter ID',
+      'Address Proof of Residence in jurisdiction',
+      'Passport size digital photo',
+      'Affidavit of no pending criminal FIRs'
+    ],
+    applicationSteps: [
+      'Submit application on State Police Citizen Portal',
+      'Local Beat Police Constable conducts address verification',
+      'Assistant Commissioner / DSP authorizes digital certificate',
+      'Download PCC with verifiable barcode seal'
+    ],
+    officialUrl: 'https://digitalpolice.gov.in',
+    serviceCount: 8
+  },
+  {
+    id: 'srv-pension-dbt',
+    title: 'Senior Citizen & Widow Social Security Pension Mandate',
+    category: 'Social Welfare',
+    department: 'Directorate of Social Security and Pensions',
+    shortDescription: 'Enroll for monthly direct bank transfer allowance for destitute senior citizens, widows, and physically challenged persons.',
+    detailedDescription: 'Guarantees regular monthly subsistence pension directly credited to Aadhaar-seeded bank accounts under Sandhya Suraksha / IGNOAPS.',
+    onlineAvailability: 'Hybrid (Apply Online / Biometrics in Center)',
+    turnaroundTime: '15 to 21 Working Days',
+    officialFee: 'Free of Cost',
+    requiredDocuments: [
+      'Aadhaar Card proving age (60+ for seniors)',
+      'Income & Asset Certificate (< ₹50,000 annual limit)',
+      'Bank Account Passbook with NPCI Aadhaar link',
+      'Death Certificate of Spouse (for widow pension)'
+    ],
+    applicationSteps: [
+      'Submit request at Grama One, Bangalore One, or Taluk Office',
+      'Village Accountant confirms economic status',
+      'Tahsildar sanctions Pension Payment Order (PPO)',
+      'Monthly DBT credited on the 1st of every month'
+    ],
+    officialUrl: 'https://nsap.nic.in',
+    serviceCount: 17
   }
 ];
 
